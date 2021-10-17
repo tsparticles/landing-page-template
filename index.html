@@ -8,10 +8,32 @@
     <title>Signin Template - tsParticles</title>
 
     <!-- Custom styles for this template -->
+
+    <style>
+        h1.flex-item {
+          /* margin:0px; */
+          animation:type 3s steps(23); 
+          overflow: hidden;
+          white-space: nowrap;
+          font-family:consolas;
+          border-right: 4px solid black;
+          width: 23ch;
+          }
+          @keyframes type {
+          0% { 
+              width:0ch;
+           }
+          100% {
+              width: 23ch;
+          } 
+          }
+    </style>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/css/all.min.css"
           integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
     <link href="css/particles.css" rel="stylesheet"/>
     <link href="css/page.css" rel="stylesheet"/>
+    
 </head>
 
 <body>
